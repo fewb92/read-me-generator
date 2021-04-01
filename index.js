@@ -61,7 +61,7 @@ inquirer
         console.log("this is the contributionGuidelines", contributionGuidelines)
         console.log("this is the tests", tests)
         console.log("this is the questions", questions)
-        const html = 
+        const readme = 
         `# Table of Contents:
         * [Title](#Title)
         * [Description](#Description)
@@ -103,6 +103,6 @@ inquirer
         Please visit my ${answers.github} to visit my work.
         #Email
         My Email is ${answers.email}. Feel free to reach me here.`;
-        fs.writeFile(fileName, html, (err) =>
+        fs.writeFile(fileName, readme, (err) =>
         err ? console.error(err) : console.log(`Success! We've created your index.html file`))
     })
