@@ -51,18 +51,9 @@ inquirer
             name: "tests",
             message: "What is the title of your project?",
         }
-    ]).then( ({ name, location, bio, linkedin, github }) => {
-        console.log("this is the title", name)
-        console.log("this is the description", description)
-        console.log("this is the tableOfContents", tableOfContents)
-        console.log("this is the installation", installation)
-        console.log("this is the usage", usage)
-        console.log("this is the license", license)
-        console.log("this is the contributionGuidelines", contributionGuidelines)
-        console.log("this is the tests", tests)
-        console.log("this is the questions", questions)
+    ]).then( (answers) => {
         const readme = 
-        `# Table of Contents:
+        (`# Table of Contents:
         * [Title](#Title)
         * [Description](#Description)
         * [Usage](#Usage)
@@ -102,7 +93,17 @@ inquirer
         #Github
         Please visit my ${answers.github} to visit my work.
         #Email
-        My Email is ${answers.email}. Feel free to reach me here.`;
+        My Email is ${answers.email}. Feel free to reach me here.`);
+        // console.log("this is the name", name)
+        // console.log("this is the email", email)
+        // console.log("this is the tableOfContents", github)
+        // console.log("this is the title", title)
+        // console.log("this is the description", description)
+        // console.log("this is the installation", installation)
+        // console.log("this is the usage", usage)
+        // console.log("this is the contributing", contributing)
+        // console.log("this is the tests", tests)
+        
         fs.writeFile(fileName, readme, (err) =>
         err ? console.error(err) : console.log(`Success! We've created your index.html file`))
     })
