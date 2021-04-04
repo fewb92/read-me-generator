@@ -3,7 +3,6 @@ console.log("terry")
 const inquirer = require("inquirer")
 const fs = require("fs")
 const fileName = ("generated-readme.md")
-const blackGround = ("```")
 
 inquirer
     .prompt([
@@ -60,7 +59,7 @@ inquirer
 
 * [Description](#Description)
 * [Usage](#Usage)
-* [Contribution](#Contribution)
+* [Contributions](#Contributions)
 * [Tests](#Tests)
 * [License](#License)
 * [Github](#Github)
@@ -68,7 +67,7 @@ inquirer
 
 
 <a name="#Description"></a>
-## Description:
+## Description
     ${answers.description}
 
 <a name="#Usage"></a>
@@ -76,7 +75,7 @@ inquirer
     ${answers.usage}
 
 <a name="#Contribution"></a>
-## Contribution Guidelines
+## Contributions 
     ${answers.contributing}
 
 <a name="#Tests"></a>

@@ -1,10 +1,10 @@
-# Title: asd
+# Title: readme generator
 
 ## Table of Contents:
 
 * [Description](#Description)
 * [Usage](#Usage)
-* [Contribution](#Contribution)
+* [Contributions](#Contributions)
 * [Tests](#Tests)
 * [License](#License)
 * [Github](#Github)
@@ -12,25 +12,25 @@
 
 
 <a name="#Description"></a>
-## Description:
-    asd
+## Description
+    this is a project which generates readmes
 
 <a name="#Usage"></a>
 ## Usage
-    asd
+    When you're too lazy to write a readme
 
 <a name="#Contribution"></a>
-## Contribution Guidelines
-    asd
+## Contributions 
+    Forking the repo and making any changes they'd like
 
 <a name="#Tests"></a>
 ## Tests
-    Some of the tests that I ran for this project are: asd.
+    Some of the tests that I ran for this project are: Experimenting and trying the project.
 
 <a name="#License"></a>
 ## License
     MIT License
-    Copyright (c) 2021 asd
+    Copyright (c) 2021 josh
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
@@ -49,8 +49,8 @@
 
 <a name="#GitHub"></a>
 ## Github
-Please visit my [github](asd) to see my work.
+Please visit my [github](https://github.com/fewb92/read-me-generator) to see my work.
 
 <a name="#Email"></a>
 ## Email
-    My Email is asd. Feel free to reach me here.
+    My Email is sotojosh96@gmail.com. Feel free to reach me here.
